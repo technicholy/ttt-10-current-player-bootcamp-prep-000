@@ -1,8 +1,6 @@
 def turn_count(board)
   count = 0
   board.each {|move| move !" " ? count += 1 :
-      count +=
-    end
   return count
 end
 def current_player(board)
