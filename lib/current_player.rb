@@ -4,7 +4,6 @@ def turn_count(board)
     if move !" "
       count +=
     end
-  end
   return count
   end
 end
