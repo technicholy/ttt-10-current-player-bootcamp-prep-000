@@ -1,7 +1,6 @@
 def turn_count(board)
   count = 0
-  board.each |move| do
-    if move !" "
+  board.each {|move| move !" " ? count += 1 :
       count +=
     end
   return count
