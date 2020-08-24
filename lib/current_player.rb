@@ -1,7 +1,7 @@
 def turn_count(board)
   count = 0
   for spot in board
-    if spot == ("X"||"O")
+    if spot = ("X"||"O")
       count += 1
     end
   end
